@@ -1,0 +1,26 @@
+{
+  "name": "donation-page-backend",
+  "version": "1.0.0",
+  "description": "backend for captain fanplastic donation webpage using MERN stack",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "author": "Alex Morrow, Kailen Mitchell",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "node-cron": "^3.0.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}

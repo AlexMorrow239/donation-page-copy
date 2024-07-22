@@ -1,0 +1,34 @@
+/* Slider Styles */
+.swiper {
+  width: 100%;
+  /* padding-right: 110px;
+    padding-left: 110px; */
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  /* border: solid red 2px; */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  position: absolute;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  transition: 300ms opacity;
+}
